@@ -21,8 +21,8 @@ sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.
 sed -i '$a src-git WikiHacker https://github.com/WikiHacker/openwrt-packages' feeds.conf.default
 # Add a feed source
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
-src-git small8 https://github.com/kenzok8/small-package
-src-git small https://github.com/kenzok8/small
+sed -i '$a src-git small8 https://github.com/kenzok8/small-package
+sed -i '$a src-git small https://github.com/kenzok8/small
 
 
 #
