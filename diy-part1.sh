@@ -14,7 +14,7 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-sed -i '$a src-git https://github.com/chenhw2/openwrt-v2ray-plugin.git package/v2ray-plugin
+#git clone https://github.com/chenhw2/openwrt-v2ray-plugin.git package/v2ray-plugin
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 #git clone https://github.com/fw876/helloworld.git package/openwrt-helloworld
 #git clone https://github.com/MrH723/openwrt-packages.git package/openwrt-packages
